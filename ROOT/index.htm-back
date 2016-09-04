@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<!-- saved from url=(0024)http://www.xinheyun.com/ -->
+<html lang="zh-CN"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!--<meta charset="utf-8">-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="description" content="商旅云是专为企业提供差
+    旅费用管理的互联网平台">
+    <meta name="keywords" content="差旅管理，税务报销，企业
+								   公对公结算，互联网+报销">
+    <title>商旅云-企业差旅报销平台</title>
+    <script src="./tripense_files/hm.js"></script><script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "//hm.baidu.com/hm.js?51cd15d521c92ac610177c8fb1c85e2e";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+    <link rel="stylesheet" type="text/css" href="./tripense_files/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./tripense_files/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./tripense_files/index.css">
+    <link rel="stylesheet" href="./tripense_files/mediaelementplayer.css">
+    <link rel="stylesheet" type="text/css" media="(min-width: 768px)" href="./tripense_files/home-1920.css">
+
+    <link rel="stylesheet" type="text/css" media="(max-width: 767px)" href="./tripense_files/home-mobile.css">
+    <!--[if lt IE 9]>
+        <script src="/static/index/js/html5shiv.min.js"></script>
+        <script src="/static/index/js/respond.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="/static/index/css/home-1920.css">
+    <![endif]-->
+</head>
+<body >
+<div id="new-section-one" class="clearfix" style="screene"
+	 >
+  <!--
+   style="background:url(./tripense_files/homepage-1-bg.jpg) no-repeat center center;background-size:cover"
+-->
+  <img class="title-logo"
+	   src="./tripense_files/logo_white.png">
+  
+  	  <div class="title-menu">
+		<button class="btn button-login"
+        onclick="location.href=&#39;/login/#/&#39;;"
+        disabled="">产品</button>
+        <button class="btn button-register"
+				onclick="location.href=&#39;/login/#/register/1&#39;"
+				disabled="">功能</button>
+
+		 <button class="btn button-register"
+				onclick="location.href=&#39;/login/#/register/1&#39;"
+				 disabled="">关于</button>
+
+		  <button class="btn button-register"
+				onclick="location.href=&#39;/login/#/register/1&#39;"
+				disabled="">登录</button>
+	  </div>
+	  
+    <div class="title-content"  >
+
+
+	  
+        <div class="text1">商旅云</div>
+        <div class="text2">企业差旅报销平台</div>
+        <hr>
+		<!--
+        <div class="text3">现在注册，免费试用一个月</div>
+		-->
+		<button class="btn button-login"
+        onclick="location.href=&#39;/login/#/&#39;;" disabled="">登录</button>
+        <button class="btn button-register"
+				onclick="location.href=&#39;/login/#/register/1&#39;"
+				disabled="">注册</button>
+    </div>
+</div>
+<div id="new-section-two">
+    <img class="cloud" src="./tripense_files/cloud.png">
+    <div class="english en">What‘s Tripense Cloud?</div>
+    <div class="question cn">什么是商旅云？</div>
+    <p class="content">为企业提供差旅费用报销管理互联网+平台</p>
+    <img class="homepage-2" src="./tripense_files/homepage-2.png">
+</div>
+<div id="new-section-three">
+    <img class="logo" src="./tripense_files/panel.png">
+    <div class="english en">What's the value of Tripense Cloud?</div>
+    <div class="question cn">商旅云为您提供什么价值？</div>
+    <div class="row panel-width">
+        <a class="left web-none" onclick="moveThreeLeft(threeContents)">
+            <img src="./tripense_files/chevron-thin-left.png" alt="">
+        </a>
+        <a class="right web-none" onclick="moveThreeRight(threeContents)">
+            <img src="./tripense_files/chevron-thin-right.png" alt="">
+        </a>
+        <div id="content-box-1" class="col-md-4 col-sm-4 cursor-click col-xs-12">
+            <a onclick="closeContent(0)">
+                <div class="panel-tl panel-bg1" >
+                    企业
+                </div>
+				<div class="panel-bd border-bottom">
+				  <p class="title">
+                    为企业节省差旅开支
+                  </p>
+                  <p id="three-content-1" class="content">
+                    商旅云为员工出行提供符合报销政策的差
+                    旅计划，避免员工乱消费
+                  </p>
+                </div>
+				
+                <div class="panel-bd border-bottom">
+				  <p class="title">
+                    增加企业差旅报销透明度
+                  </p>
+                  <p id="three-content-2" class="content">
+                    商旅云帮助企业建立差旅报销的管理规范，
+                    促进企业报销过程规范透明，避免虚报漏
+                    报等现象
+                  </p>
+                </div>
+				
+				
+                <div class="corner">
+                    <img class="mobile-none" src="./tripense_files/corner.png">
+                    <img class="web-none" src="./tripense_files/corner-mobile.png">
+                    <span>1</span>
+                </div>
+            </a>
+        </div>
+        <div id="content-box-2" class="col-md-4 col-sm-4 cursor-click col-xs-12">
+            <a onclick="closeContent(1)">
+                <div class="panel-tl panel-bg2">
+                    员工 
+                </div>
+				<div class="panel-bd border-bottom">
+
+				  <p class="title">
+                      员工随时报销，会计随时审批
+                    </p>
+                    <p id="three-content-3" class="content">
+                      员工可以通过商旅云app 随时随地上传企业
+                      相关费用作为内部报销凭证，不再担心票
+                      据丢失
+                    </p>
+                </div>
+                <div class="panel-bd">
+                    <p class="title">
+                      一键规划差旅行程
+                    </p>
+                    <p id="three-content-4" class="content">
+					  根据企业报销政策，为员工提供合理可行的
+					  行程计划，省去员工自行订票订酒店的繁琐
+                    </p>
+                </div>
+                <div class="corner">
+                    <img class="mobile-none" src="./tripense_files/corner.png">
+                    <img class="web-none" src="./tripense_files/corner-mobile.png">
+                    <span>2</span>
+                </div>
+            </a>
+        </div>
+        <div id="content-box-3" class="col-md-4 col-sm-4 cursor-click col-xs-12">
+            <a onclick="closeContent(2)">
+                <div class="panel-tl panel-bg3">
+                    管理 &amp; 财务人员
+                </div>
+
+                <div class="panel-bd border-bottom" >
+                    <p class="title">
+                      随时掌握员工的差旅开销
+                    </p>
+                    <p id="three-content-5" class="content">
+					  员工差旅产生的费用一目了然，发票收据等
+                      电子信息永久存档，方便企业管理人员对运营开支进行有效管控 
+                    </p>					
+                </div>
+
+				<div class="panel-bd">
+				  <p class="title">
+                      简化手工报销繁琐流程
+                  </p>
+                  <p id="three-content-6" class="content">
+					  企业财务人员可以对员工报
+                      销项目进行在线审核批复，不用在月底手工
+                      贴票统计报销，
+					  差旅服务合作商每月给企业寄送正规发票，作为员工差旅的凭证，方便企业入账，
+                  </p>
+				</div>
+                <div class="corner">
+                    <img class="mobile-none" src="./tripense_files/corner.png">
+                    <img class="web-none" src="./tripense_files/corner-mobile.png">
+                    <span>3</span>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+<div id="new-section-four" >
+    <img class="logo" src="./tripense_files/book.png" alt="">
+    <a class="left web-none" onclick="moveThreeLeft(functionContents)">
+        <img src="./tripense_files/chevron-thin-left.png" alt="">
+    </a>
+    <a class="right web-none" onclick="moveThreeRight(functionContents)">
+        <img src="./tripense_files/chevron-thin-right.png" alt="">
+    </a>
+    <div class="english en">Product Features</div>
+    <div class="question cn">商旅云产品功能</div>
+    <div class="mobile-none module clearfix">
+        <div class="module-box pull-left">
+            <div class="title">报销</div>
+            <div class="content">
+                <span>发票收据图片识别</span>
+              <span>手机扫码报销</span>
+                 
+            </div>
+        </div>
+        <div class="module-box pull-left">
+            <div class="title">采购</div>
+            <div class="content">
+              <span>酒店，机票采购</span>
+			  <sapn>网约打车公司服务</span>
+              <span>公司用品采购</span>
+			  <span>员工福利采购</span>
+            </div>
+        </div>
+		
+        <div class="module-box pull-right">
+            <div class="title">分析</div>
+            <div class="content">
+              <span>员工报销项目分析</span>
+			  <span>企业支出分析<span>
+			  <span>智能预测预警</span>
+            </div>
+        </div>
+		
+		<div class="module-box pull-right">
+            <div class="title">结算</div>
+            <div class="content">
+                <span>商家公对公结算入账</span>
+                <span>月度寄送发票</span>  
+            </div>
+        </div>
+		<div class="module-box pull-right">
+            <div class="title">政策</div>
+            <div class="content">
+			  <span>费用审核</span>
+              <span>报销政策制定</span>
+            </div>
+        </div>
+    </div>
+    <div class="mobile-none module clearfix">
+        <div class="module-box pull-left">
+            <div class="title">税务</div>
+            <div class="content">
+              <span>电子发票支持</span>
+              <span>电子报税</span>
+              <span>税务系统集成</span>
+            </div>
+        </div>
+        <div class="module-box pull-left">
+            <div class="title">财务</div>
+            <div class="content">
+			  <span>信用卡接入</span>
+              <span>支付平台</span>
+              <span>个人财务分类</span>
+            </div>
+        </div>
+		
+       
+        <div class="module-box pull-right">
+            <div class="title">出行</div>
+            <div class="content">
+			  <span>智能行程</span>
+              <span>差旅助手</span>
+              <span>行程信息追踪</span>
+            </div>
+        </div>
+		
+        <div class="module-box pull-right">
+            <div class="title">系统</div>
+            <div class="content">
+              <span>用户管理</span>
+              <span>权限管理</span>
+              <span>合作平台管理</span>      
+            </div>
+        </div>
+    </div>
+
+<!--
+	<div id="function-1" class="web-none module">
+        <div class="module-box float-right col-xs-6">
+            <div class="title">订单</div>
+            <div class="content">
+
+			  <span>发票收据图片识别</span>
+              <span>扫码报销</span>
+            </div>
+        </div>
+        <div class="module-box col-xs-6">
+            <div class="title">采购</div>
+            <div class="content">
+			  <span>差旅平台合作</span>
+              <span>公司日常用品采购</span>
+			  <span>员工福利采购</span>
+            </div>
+        </div>
+        <div class="module-box float-right col-xs-6">
+            <div class="title">生产</div>
+            <div class="content">
+                <span>工艺管理</span>
+                <span>生产排产</span>
+                <span>数据采集</span>
+                <span>生产批次管理</span>
+            </div>
+        </div>
+        <div class="module-box col-xs-6">
+            <div class="title">库存</div>
+            <div class="content">
+                <span>自动备料</span>
+                <span>多仓库管理</span>
+                <span>出入库任务</span>
+                <span>扫码盘库</span>
+            </div>
+        </div>
+    </div>
+    <div id="function-2" class="web-none module">
+        <div class="module-box float-right col-xs-6">
+            <div class="title">物料</div>
+            <div class="content">
+                <span>成品、半成品和原料管理</span>
+                <span>生产现场物料管理</span>
+                <span>物料上下架控制</span>
+            </div>
+        </div>
+        <div class="module-box col-xs-6">
+            <div class="title">财务</div>
+            <div class="content">
+                <span>财务审核</span>
+                <span>应收/付款管理</span>
+                <span>成本分析</span>
+            </div>
+        </div>
+        <div class="module-box float-right col-xs-6">
+            <div class="title">质检</div>
+            <div class="content">
+                <span>QA检验</span>
+                <span>质量追溯</span>
+                <span>质量控制</span>
+                <span>返修管理</span>
+            </div>
+        </div>
+        <div class="module-box col-xs-6">
+            <div class="title">看板</div>
+            <div class="content">
+                <span>生产进度</span>
+                <span>品质分析</span>
+                <span>员工绩效</span>
+                <span>工厂产能</span>
+                <span>全报表同步到APP</span>
+            </div>
+        </div>
+    </div>
+    <div id="function-3" class="web-none module">
+        <div class="module-box float-right col-xs-6">
+            <div class="title">项目</div>
+            <div class="content">
+                <span>项目任务管理</span>
+                <span>项目进度总览</span>
+                <span>售后管理</span>
+            </div>
+        </div>
+        <div class="module-box col-xs-6">
+            <div class="title">系统</div>
+            <div class="content">
+                <span>用户管理</span>
+                <span>权限管理</span>
+                <span>流程管理</span>
+                <span>基础资料</span>
+            </div>
+        </div>
+    </div>
+	-->
+   
+</div>
+
+<!--
+<div id="new-section-five" class="clearfix" >
+    <img class="logo" src="./tripense_files/flag.png">
+    <a class="left web-none" onclick="moveThreeLeft(fiveContents)">
+        <img src="./tripense_files/chevron-thin-left.png" alt="">
+    </a>
+    <a class="right web-none" onclick="moveThreeRight(fiveContents)">
+        <img src="./tripense_files/chevron-thin-right.png" alt="">
+    </a>
+    <div class="english en">Success Cases</div>
+    <div class="question cn">新核云部分成功案例</div>
+    <div>
+        <div class="mobile-none double-quote-l">“</div>
+        <div class="users-margin">
+            <div id="user-1" class="col-sm-4 user">
+                <img src="./tripense_files/head-1.png">
+                <div class="title">上海宏勋机电</div>
+                <p class="content">每一批采购的原料和生产的产品，新核云都会自动生成一个二维码标签，贴在包装上。质检员只要扫一下二维码，就立刻知道这个产品使用的哪批原料和由哪条生产线所生产。这种便捷的追溯功能，不仅提升了宏勋麻将机的质量，同时也有效解决了代理商之间私下窜货的问题。</p>
+                <div class="manager-name">
+                    <span>总经理</span>
+                    <span class="name">陈志淇</span>
+                </div>
+            </div>
+            <div id="user-2" class="col-sm-4 user">
+                <img src="./tripense_files/head-2.png">
+                <div class="title">上海誉和钻石刀具有限公司</div>
+                <p class="content">新核云让我们的生产工序变得井然有序，员工每完成自己的任务后，就在平板电脑上更新一下，下一道工序就会立即收到通知。这样，不论我在哪里，都能随时看到每个订单的生产进度，非常的方便。</p>
+                <div class="manager-name">
+                    <span>总经理</span>
+                    <span class="name">聂峰耀</span>
+                </div>
+            </div>
+            <div id="user-3" class="col-sm-4 user">
+                <img src="./tripense_files/head-3.png">
+                <div class="title">江苏本格自动化</div>
+                <p class="content">新核云操作起来极其简单，通过互联网化的手段，能够让我随时查到每一个机械件的组装进度。通常我们的机械产品，由上百种零件组成，原来我们要耗费至少2名人力来去管理现场物料和进度，现在只要打开手机就能清楚的看到这些关键信息了。</p>
+                <div class="manager-name">
+                    <span>副总经理</span>
+                    <span class="name">黄海兴</span>
+                </div>
+            </div>
+        </div>
+        <div class="mobile-none double-quote-r">”</div>
+    </div>
+    <div class="button">
+        <button data-toggle="modal" data-target="#video" title="我们的客户说" class="btn btn-video">
+            <img src="./tripense_files/play.png">观看视频
+        </button>
+    </div>
+</div>
+
+-->
+<div id="new-section-six" class="clearfix">
+    <div class="section-title">
+        <div class="img-container">
+            <img src="./tripense_files/global.png">
+        </div>
+        <div class="en english">Our team?</div>
+        <div class="cn question">我们的团队</div>
+    </div>
+    <p class="content">商旅云是专为企业提供差旅报销服务的互联网平台，我们的技术团队来自微软、SAP等顶尖的企业软件提供商。</p>
+    <div class="mobile-none">
+        <img class="img img-2" src="./tripense_files/5-2.png" alt="">
+        <img class="img img-3" src="./tripense_files/5-3.png" alt="">
+ <!--       <img class="img img-4" src="./tripense_files/5-4.png" alt="">
+        <img class="img img-5" src="./tripense_files/5-5.png" alt="">
+        <img class="img img-6" src="./tripense_files/5-6.png" alt="">
+ -->       <img class="img img-7" src="./tripense_files/5-7.png" alt="">
+
+	
+    </div>
+</div>
+
+<!--
+<div id="new-section-seven">
+    <div class="section-title">
+        <div class="img-container">
+            <img src="./tripense_files/user.png">
+        </div>
+        <div class="en english">Who Is Using?</div>
+        <div class="cn question">谁在用新核云?</div>
+    </div>
+    <div class="content">
+        <img class="img-responsive center-block" src="./tripense_files/homepage-6-bg.png">
+    </div>
+    <div class="industry">
+        <div class="industry-item item-1">
+            <img src="./tripense_files/6-3.png" alt="">
+            <span class="industry-item-name">机械加工</span>
+            <p class="mobile-none">
+                南京宾德机械 <br>
+                宝力泰电液传动控制技术(杭州)有限公司 <br>
+                苏州茂隆电梯配件有限公司 <br>
+                宁波富莱迪机械科技有限公司 <br>
+                南通太和机械 <br>
+                江苏本格自动化科技有限公司 <br>
+                上海宏勋机电有限公司 <br>
+                ...
+            </p>
+        </div>
+        <div class="industry-item item-2">
+            <img src="./tripense_files/6-4.png" alt="">
+            <span class="industry-item-name">工业刀具</span>
+            <p class="mobile-none">
+                海宏锯业有限公司 <br>
+                宁海鸿创金属制品有限公司 <br>
+                上海凯标机械刀片有限公司 <br>
+                无锡国宏质合金模具刃具有限公司<br>
+                江苏维香工具制造有限公司<br>
+                森港机械刀片有限公司<br>
+                大连日鑫特刀具有限公司<br>
+                芜湖龙兴合金<br>
+                上海誉和钻石工具有限公司<br>
+                ...
+            </p>
+        </div>
+        <div class="industry-item item-3">
+            <img class="industry-item-img" src="./tripense_files/6-5.png" alt="">
+            <span class="industry-item-name">服装</span>
+            <p class="mobile-none">
+                义乌市易恩地箱包厂<br>
+                ...
+            </p>
+        </div>
+        <div class="industry-item item-4">
+            <img src="./tripense_files/6-6.png" alt="">
+            <span class="industry-item-name">汽摩配</span>
+            <p class="mobile-none">
+                台州市日兴汽车设备有限公司 <br>
+                芜湖银星汽车零部件有限公司 <br>
+                上海强军物流有限公司 <br>
+                保定江辉减震器公司 <br>
+                语宸五金机电设备有限公司 <br>
+                安美汽车科技有限公司 <br>
+                ...
+            </p>
+        </div>
+        <div class="industry-item item-5">
+            <img src="./tripense_files/6-7.png" alt="">
+            <span class="industry-item-name">木材加工</span>
+            <p class="mobile-none">
+                南方印业有限公司 <br>
+                昆山星太喷塑公司 <br>
+                天奥工艺品有限公司 <br>
+                上海敦桓工贸有限公司 <br>
+                ...
+            </p>
+        </div>
+    </div>
+</div>
+<div id="new-section-eight" class="clearfix" >
+    <div class="section-title">
+oo        <img class="logo" src="./tripense_files/plane.png">
+        <div class="en english">Contact Us</div>
+        <div class="cn question">联系我们</div>
+    </div>
+
+    <div class="content">
+        <img src="./tripense_files/qrcode.png">
+        <div class="inline-block">
+            <div class="follow">
+                <span>扫一扫</span><br>
+                <span>关注我们吧</span>
+            </div>
+            <hr>
+            <div class="follow-message">即可享受29天免费试用机会</div>
+            <button class="btn" type="button" onclick="location.href=&#39;/login/#/register/1&#39;">免费试用</button>
+        </div>
+    </div>
+</div>
+-->
+
+
+<div id="new-section-nine" >
+    <div class="address-info">
+        <div>
+            <img src="./tripense_files/contact-1.png">
+            <span>杭州三墩华彩国际8号楼716室</span>
+        </div>
+
+
+		<div class="map">
+            <img class="base-map" src="./tripense_files/map-1.png">
+            
+        </div>
+		
+<div class="telphone">
+            <img src="./tripense_files/contact-2.png" alt="">
+            <span>13524331710</span>
+        </div>
+        <div class="mail">
+            <img src="./tripense_files/contact-3.png" alt="">
+            <span>xiasiliang@ufl.edu</span>
+        </div>
+    </div>
+    <div class="invest-form">
+        <form lpformnum="1">
+            <div>
+                <label for="telephone">电话：</label>
+                <input type="text" name="telephone" id="telephone" placeholder="电话" style="cursor: auto; background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABHklEQVQ4EaVTO26DQBD1ohQWaS2lg9JybZ+AK7hNwx2oIoVf4UPQ0Lj1FdKktevIpel8AKNUkDcWMxpgSaIEaTVv3sx7uztiTdu2s/98DywOw3Dued4Who/M2aIx5lZV1aEsy0+qiwHELyi+Ytl0PQ69SxAxkWIA4RMRTdNsKE59juMcuZd6xIAFeZ6fGCdJ8kY4y7KAuTRNGd7jyEBXsdOPE3a0QGPsniOnnYMO67LgSQN9T41F2QGrQRRFCwyzoIF2qyBuKKbcOgPXdVeY9rMWgNsjf9ccYesJhk3f5dYT1HX9gR0LLQR30TnjkUEcx2uIuS4RnI+aj6sJR0AM8AaumPaM/rRehyWhXqbFAA9kh3/8/NvHxAYGAsZ/il8IalkCLBfNVAAAAABJRU5ErkJggg==&quot;); background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; background-repeat: no-repeat;">
+            </div>
+            <div>
+                <label for="mail">邮箱：</label>
+                <input type="text" name="mail" id="mail" placeholder="邮箱">
+            </div>
+            <div>
+                <label for="title">标题：</label>
+                <input type="text" id="title" name="title" placeholder="标题">
+            </div>
+            <div>
+                <label for="content" class="textarea-label">内容：</label>
+                <textarea id="content" name="content" placeholder="内容"></textarea>
+            </div>
+            <div>
+                <button type="button" disabled="">
+                    发送
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<hr class="footer">
+<footer id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-10 col-xs-offset-1 text-center">
+                <p class="text-muted">
+                    Copyright © 2016, Tripense Technology Co., Ltd. All Rights Reserved.
+                    杭州青业云志信息科技有限公司
+                </p>
+                <p class="text-muted"></p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Modal -->
+<div class="modal modal-video" id="video" tabindex="-1" aria-labelledby="myModalLabel" data-backdrop="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header desktop-only">
+                <a class="modal-close pull-right" data-dismiss="modal"><span class="fa fa-remove"></span></a>
+            </div>
+            <div class="modal-body" style="padding:0">
+
+                <span class="mejs-offscreen">Video Player</span><div id="mep_0" class="mejs-container svg mejs-video" tabindex="0" role="application" aria-label="Video Player" style="width: 981.4px; height: 552.038px;"><div class="mejs-inner"><div class="mejs-mediaelement"><video preload="none" width="100%" height="100%" style="width: 100%; height: 100%" src="http://7xsegi.com2.z0.glb.qiniucdn.com/newcore-case-yuhe.mp4">
+                    <!-- MP4 for Safari, IE9, iPhone, iPad, Android, and Windows Phone 7 -->
+                    <source type="video/mp4" src="http://7xsegi.com2.z0.glb.qiniucdn.com/newcore-case-yuhe.mp4">
+                    <!-- Flash fallback for non-HTML5 browsers without JavaScript -->
+                    <object type="application/x-shockwave-flash" data="./tripense_files/flashmediaelement.swf">
+                        <param name="movie" value="/static/js/libs/mediaelementplayer/flashmediaelement.swf">
+                        <param name="flashvars" value="controls=true&amp;file=http://7xsegi.com2.z0.glb.qiniucdn.com/newcore-case-yuhe.mp4">
+                    </object>
+                </video></div><div class="mejs-layers"><div class="mejs-poster mejs-layer" style="display: none; width: 981.4px; height: 552.038px;"></div><div class="mejs-overlay mejs-layer" style="display: none; width: 981.4px; height: 552.038px;"><div class="mejs-overlay-loading"><span></span></div></div><div class="mejs-overlay mejs-layer" style="display: none; width: 981.4px; height: 552.038px;"><div class="mejs-overlay-error"></div></div><div class="mejs-overlay mejs-layer mejs-overlay-play" style="width: 981.4px; height: 552.038px;"><div class="mejs-overlay-button"></div></div></div><div class="mejs-controls"><div class="mejs-button mejs-playpause-button mejs-play"><button type="button" aria-controls="mep_0" title="Play" aria-label="Play"></button></div><div class="mejs-time-rail"><span class="mejs-time-total mejs-time-slider"><span class="mejs-time-buffering" style="display: none;"></span><span class="mejs-time-loaded"></span><span class="mejs-time-current"></span><span class="mejs-time-handle"></span><span class="mejs-time-float"><span class="mejs-time-float-current">00:00</span><span class="mejs-time-float-corner"></span></span></span></div><div class="mejs-time" role="timer" aria-live="off"><span class="mejs-currenttime">00:00</span><span> | </span><span class="mejs-duration">00:00</span></div><div class="mejs-button mejs-volume-button mejs-mute"><button type="button" aria-controls="mep_0" title="Mute" aria-label="Mute"></button><a href="javascript:void(0);" class="mejs-volume-slider" aria-label="volumeSlider" aria-valuemin="0" aria-valuemax="100" aria-valuenow="80" aria-valuetext="80%" role="slider" tabindex="0" style="display: none;"><span class="mejs-offscreen">Use Up/Down Arrow keys to increase or decrease volume.</span><div class="mejs-volume-total"></div><div class="mejs-volume-current" style="height: 80px; top: 20px;"></div><div class="mejs-volume-handle" style="top: 17px;"></div></a></div><div class="mejs-button mejs-fullscreen-button"><button type="button" aria-controls="mep_0" title="Fullscreen" aria-label="Fullscreen"></button></div></div><div class="mejs-clear"></div></div></div>
+            </div>
+        </div>
+    </div>
+</div>
+<img src="./tripense_files/download-qr-20160303.png" style="display: none">
+<script type="text/javascript" src="./tripense_files/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="./tripense_files/bootstrap.min.js"></script>
+<script src="./tripense_files/mediaelement-and-player.min.js"></script>
+<script type="text/javascript">
+    var threeContents = [],functionContents = [], fiveContents = [];
+    threeContents.push(document.getElementById('content-box-1'));
+    threeContents.push(document.getElementById('content-box-2'));
+    threeContents.push(document.getElementById('content-box-3'));
+    functionContents.push(document.getElementById('function-1'));
+    functionContents.push(document.getElementById('function-2'));
+    functionContents.push(document.getElementById('function-3'));
+    fiveContents.push(document.getElementById('user-1'));
+    fiveContents.push(document.getElementById('user-2'));
+    fiveContents.push(document.getElementById('user-3'));
+    var moveThreeRight = function (contents) {
+        var index;
+        for (var i = 0 ; i < 3 ; i ++) {
+            if (contents[i].style.display !== 'none') {
+                index = i;
+            }
+            contents[i].style.display = 'none';
+        }
+        index ++;
+        if (index === 3) {
+            index = 0;
+        }
+        contents[index].style.display = 'block';
+    };
+    var moveThreeLeft = function (contents, index) {
+        for (var i = 0 ; i < 3 ; i ++) {
+            if (contents[i].style.display !== 'none') {
+                index = i ;
+            }
+            contents[i].style.display = 'none';
+        }
+        index --;
+        if (index === -1) {
+            index = 2;
+        }
+        contents[index].style.display = 'block';
+    };
+    var closeContent = function closeContent(number) {
+        if (number === 0) {
+            var content1 = document.getElementById('three-content-1'), content2 = document.getElementById('three-content-2');
+            if(content1.style.display === 'none') {
+                content1.style.display = 'block';
+                content2.style.display = 'block';
+            } else {
+                content1.style.display = 'none';
+                content2.style.display = 'none';
+            };
+        }
+        if (number === 1) {
+            var content1 = document.getElementById('three-content-3'), content2 = document.getElementById('three-content-4');
+            if(content1.style.display === 'none') {
+                content1.style.display = 'block';
+                content2.style.display = 'block';
+            } else {
+                content1.style.display = 'none';
+                content2.style.display = 'none';
+            };
+        }
+        if (number === 2) {
+            var content1 = document.getElementById('three-content-5');
+            if(content1.style.display === 'none') {
+                content1.style.display = 'block';
+            } else {
+                content1.style.display = 'none';
+            };
+        }
+    }
+    $(document).on('ready',function(){
+        var $supplier = $(".supplier"),
+                $order = $(".order");
+        $('#section-five li').on('click',function(e) {
+            $('#section-five li').removeClass('active');
+            var $this = $(this);
+            if (!$this.hasClass('active')) {
+                $this.addClass('active');
+                if($this.data("type") == "order"){
+                    $order.removeClass("inactive");
+                    $supplier.addClass("inactive");
+                }else{
+                    $supplier.removeClass("inactive");
+                    $order.addClass("inactive");
+                }
+            }
+        });
+        $('[data-toggle="popover"]').popover();
+        var ua = navigator.userAgent.toLowerCase();
+        if (/iphone|ipod/.test(ua) || /windows phone|blackberry/.test(ua)
+                || /android/.test(ua)) {
+            $('.desktop-only').remove();
+        }
+        var default_wt = $(window).width() * 0.7 ; // get current width
+        var default_ht = default_wt * 9 / 16;
+        var opt = {
+            videoHeight : default_ht, //set default height
+
+            videoWidth : default_wt, //set default width
+
+            defaultVideoWidth : default_wt, //another option for default width
+
+            defaultVideoHeight : default_ht, //another option for default height
+            startVolume: 0.8,
+            // useful for <audio> player loops
+            loop: false,
+            // enables Flash and Silverlight to resize to content size
+            enableAutosize: true,
+            // the order of controls you want on the control bar (and other plugins below)
+            features: ['playpause','progress','current','duration','tracks','volume','fullscreen'],
+            // Hide controls when playing and mouse is not over the video
+            alwaysShowControls: false,
+            // force iPad's native controls
+            iPadUseNativeControls: false,
+            // force iPhone's native controls
+            iPhoneUseNativeControls: false,
+            // force Android's native controls
+            AndroidUseNativeControls: false,
+            // forces the hour marker (##:00:00)
+            alwaysShowHours: false,
+            // show framecount in timecode (##:00:00:00)
+            showTimecodeFrameCount: false,
+            // used when showTimecodeFrameCount is set to true
+            framesPerSecond: 25,
+            // turns keyboard support on and off for this instance
+            enableKeyboard: true,
+            // when this player starts, it will pause other players
+            pauseOtherPlayers: true,
+            // array of keyboard commands
+            keyActions: []
+
+        };
+        var player = new MediaElementPlayer('video',opt);
+        $('#video').on('shown.bs.modal', function (e) {
+            player.play();
+        })
+        $('#video').on('hide.bs.modal', function (e) {
+            player.pause();
+        })
+
+    });
+</script>
+
+
+
+<script id="hiddenlpsubmitdiv" style="display: none;"></script><script>try{(function() { for(var lastpass_iter=0; lastpass_iter < document.forms.length; lastpass_iter++){ var lastpass_f = document.forms[lastpass_iter]; if(typeof(lastpass_f.lpsubmitorig2)=="undefined"){ lastpass_f.lpsubmitorig2 = lastpass_f.submit; if (typeof(lastpass_f.lpsubmitorig2)=='object'){ continue;}lastpass_f.submit = function(){ var form=this; var customEvent = document.createEvent("Event"); customEvent.initEvent("lpCustomEvent", true, true); var d = document.getElementById("hiddenlpsubmitdiv"); if (d) {for(var i = 0; i < document.forms.length; i++){ if(document.forms[i]==form){ if (typeof(d.innerText) != 'undefined') { d.innerText=i.toString(); } else { d.textContent=i.toString(); } } } d.dispatchEvent(customEvent); }form.lpsubmitorig2(); } } }})()}catch(e){}</script><div><div id="SL_button" class="ImTranslatorLogo" style="display: none; left: 1014px; top: 5296px;"></div><div id="SL_shadow_translation_result2" style="display: none;"></div><div id="SL_shadow_translator" style="display: none;"><div id="SL_planshet"><div id="SL_TB"><div class="ImTranslatorLogo"></div><table cellspacing="1" border="0" id="SL_tables"><tbody><tr><td class="SL_td" align="left" width="20%"><div id="SL_lng_from">English&nbsp;»</div></td><td class="SL_td" align="left" width="20%"><div id="SL_to_"><div id="SL_tocurlng" style="margin-left:5px;">Spanish</div><div class="SL_arrow"></div><div id="SL_to_list" style="display=" none'=""><div class="SL_DDMENU"><div id="SL_af" class="SL_limenu">Afrikaans</div><div id="SL_sq" class="SL_limenu">Albanian</div><div id="SL_ar" class="SL_limenu">Arabic</div><div id="SL_hy" class="SL_limenu">Armenian</div><div id="SL_az" class="SL_limenu">Azerbaijani</div><div id="SL_eu" class="SL_limenu">Basque</div><div id="SL_bn" class="SL_limenu">Bengali</div><div id="SL_be" class="SL_limenu">Belarusian</div><div id="SL_bg" class="SL_limenu">Bulgarian</div><div id="SL_ca" class="SL_limenu">Catalan</div><div id="SL_zh_CN" class="SL_limenu">Chinese&nbsp;(Simp)</div><div id="SL_zh_TW" class="SL_limenu">Chinese&nbsp;(Trad)</div><div id="SL_hr" class="SL_limenu">Croatian</div><div id="SL_cs" class="SL_limenu">Czech</div><div id="SL_da" class="SL_limenu">Danish</div><div id="SL_nl" class="SL_limenu">Dutch</div><div id="SL_en" class="SL_limenu">English</div><div id="SL_eo" class="SL_limenu">Esperanto</div><div id="SL_et" class="SL_limenu">Estonian</div><div id="SL_tl" class="SL_limenu">Filipino</div><div id="SL_fi" class="SL_limenu">Finnish</div><div id="SL_fr" class="SL_limenu">French</div><div id="SL_gl" class="SL_limenu">Galician</div><div id="SL_ka" class="SL_limenu">Georgian</div><div id="SL_de" class="SL_limenu">German</div><div id="SL_el" class="SL_limenu">Greek</div><div id="SL_gu" class="SL_limenu">Gujarati</div><div id="SL_ht" class="SL_limenu">Haitian&nbsp;Creole</div><div id="SL_iw" class="SL_limenu">Hebrew</div><div id="SL_hi" class="SL_limenu">Hindi</div><div id="SL_hu" class="SL_limenu">Hungarian</div><div id="SL_is" class="SL_limenu">Icelandic</div><div id="SL_id" class="SL_limenu">Indonesian</div><div id="SL_ga" class="SL_limenu">Irish</div><div id="SL_it" class="SL_limenu">Italian</div><div id="SL_ja" class="SL_limenu">Japanese</div><div id="SL_kn" class="SL_limenu">Kannada</div><div id="SL_ko" class="SL_limenu">Korean</div><div id="SL_lo" class="SL_limenu">Lao</div><div id="SL_la" class="SL_limenu">Latin</div><div id="SL_lv" class="SL_limenu">Latvian</div><div id="SL_lt" class="SL_limenu">Lithuanian</div><div id="SL_mk" class="SL_limenu">Macedonian</div><div id="SL_ms" class="SL_limenu">Malay</div><div id="SL_mt" class="SL_limenu">Maltese</div><div id="SL_no" class="SL_limenu">Norwegian</div><div id="SL_fa" class="SL_limenu">Persian</div><div id="SL_pl" class="SL_limenu">Polish</div><div id="SL_pt" class="SL_limenu">Portuguese</div><div id="SL_ro" class="SL_limenu">Romanian</div><div id="SL_ru" class="SL_limenu">Russian</div><div id="SL_sr" class="SL_limenu">Serbian</div><div id="SL_sk" class="SL_limenu">Slovak</div><div id="SL_sl" class="SL_limenu">Slovenian</div><div id="SL_es" class="SL_limenu">Spanish</div><div id="SL_sw" class="SL_limenu">Swahili</div><div id="SL_sv" class="SL_limenu">Swedish</div><div id="SL_ta" class="SL_limenu">Tamil</div><div id="SL_te" class="SL_limenu">Telugu</div><div id="SL_th" class="SL_limenu">Thai</div><div id="SL_tr" class="SL_limenu">Turkish</div><div id="SL_uk" class="SL_limenu">Ukrainian</div><div id="SL_ur" class="SL_limenu">Urdu</div><div id="SL_vi" class="SL_limenu">Vietnamese</div><div id="SL_cy" class="SL_limenu">Welsh</div><div id="SL_yi" class="SL_limenu">Yiddish</div></div></div></div><select id="SL_lng_to"><option value="af">Afrikaans</option><option value="sq">Albanian</option><option value="ar">Arabic</option><option value="hy">Armenian</option><option value="az">Azerbaijani</option><option value="eu">Basque</option><option value="bn">Bengali</option><option value="be">Belarusian</option><option value="bg">Bulgarian</option><option value="ca">Catalan</option><option value="zh-CN">Chinese&nbsp;(Simp)</option><option value="zh-TW">Chinese&nbsp;(Trad)</option><option value="hr">Croatian</option><option value="cs">Czech</option><option value="da">Danish</option><option value="nl">Dutch</option><option value="en">English</option><option value="eo">Esperanto</option><option value="et">Estonian</option><option value="tl">Filipino</option><option value="fi">Finnish</option><option value="fr">French</option><option value="gl">Galician</option><option value="ka">Georgian</option><option value="de">German</option><option value="el">Greek</option><option value="gu">Gujarati</option><option value="ht">Haitian&nbsp;Creole</option><option value="iw">Hebrew</option><option value="hi">Hindi</option><option value="hu">Hungarian</option><option value="is">Icelandic</option><option value="id">Indonesian</option><option value="ga">Irish</option><option value="it">Italian</option><option value="ja">Japanese</option><option value="kn">Kannada</option><option value="ko">Korean</option><option value="lo">Lao</option><option value="la">Latin</option><option value="lv">Latvian</option><option value="lt">Lithuanian</option><option value="mk">Macedonian</option><option value="ms">Malay</option><option value="mt">Maltese</option><option value="no">Norwegian</option><option value="fa">Persian</option><option value="pl">Polish</option><option value="pt">Portuguese</option><option value="ro">Romanian</option><option value="ru">Russian</option><option value="sr">Serbian</option><option value="sk">Slovak</option><option value="sl">Slovenian</option><option selected="" value="es">Spanish</option><option value="sw">Swahili</option><option value="sv">Swedish</option><option value="ta">Tamil</option><option value="te">Telugu</option><option value="th">Thai</option><option value="tr">Turkish</option><option value="uk">Ukrainian</option><option value="ur">Urdu</option><option value="vi">Vietnamese</option><option value="cy">Welsh</option><option value="yi">Yiddish</option></select></td><td class="SL_td" width="13%" align="center">&nbsp;</td><td class="SL_td" width="8%" align="center"><div id="SL_TTS_voice" title=""></div></td><td class="SL_td" width="8%" align="center"><div class="SL_copy_hand" id="SL_copy" title="Select text"></div></td><td class="SL_td" width="8%" align="center"><div class="SL_font_off" id="SL_bbl_font" title="Font size"></div></td><td class="SL_td" width="5%"></td><td class="SL_td" width="8%" align="right"><div class="SL_pin_off" id="SL_pin" title="Pin pup-up bubble"></div></td></tr></tbody></table></div></div><div id="SL_shadow_translation_result"></div><div id="SL_bbl_donate" title="Make a small contribution"></div><div id="SL_Balloon_options"><a href="chrome-extension://pcfaommkmdjacdkbaoohklbccfmbnnod/options-bbl.html" target="_blank" class="SL_options" title="Show options">Options</a></div></div></div></body></html>
